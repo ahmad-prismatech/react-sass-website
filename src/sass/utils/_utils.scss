@@ -1,0 +1,38 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  @include responsive(756px){
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+.whiteBg {
+  background: $white !important;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  & a {
+    color: $black !important;
+  }
+}
+
+.transparent {
+  background: transparent;
+
+  & a {
+    color: $white;
+  }
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.rel{
+  position: relative;
+}
+
+
